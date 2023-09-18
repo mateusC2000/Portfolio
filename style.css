@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/* ESTILO GERAL */
+
 *{
   margin: 0;
   padding: 0;
@@ -15,37 +17,63 @@ body{
 
 .background{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-image: url(background.jpg);
+  background-image: url(images/background.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 100vh;
 }
 
+.flex{
+  display: flex;
+}
+
+button{
+  color: #2ecc71;
+  background: transparent;
+  border: solid 1px #2ecc71;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 150px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button:hover{
+  background-color: #2ecc71;
+  color: #fff;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+/* ESTILO DO CABEÇALHO */
 header{
   display: flex;
   justify-content: space-around;
   max-width: 100%;
   align-items: center;
   text-align: center;
-  padding-top: 1rem;
+  padding: 40px 4%;
 }
 
 .cabeçalho-link{
   display: flex;
-  gap: 3rem;
+  gap: 130px;
   font-weight: 300;
   cursor: pointer;
 }
 
 .cabeçalho-link a{
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
+  display: inline-block;
 }
 
 .cabeçalho-link a:hover{
   color: #2ecc71;
   transition: 0.3s all;
+  transform: scale(1.1);
 }
 
 .logo i{
@@ -62,44 +90,31 @@ header{
   cursor: pointer;
 }
 
-button{
-  color: #2ecc71;
-  background: transparent;
-  border: solid 1px #2ecc71;
-  padding: 5px;
-  border-radius: 15px;
-  font-size: 12px;
-  width: 150px;
-  cursor: pointer;
+/* ESTILO CORPO */
+.conteiner-text .flex{
+  padding: 100px 0 0 130px;
+  align-items: center;
+  justify-content: center;
 }
 
-button:hover{
-  background-color: #2ecc71;
+.text-site h3{
   color: #fff;
-  transition: 0.5s;
+  font-size: 20px;
 }
 
-.conteiner-text{
-  padding: 150px 0 0 130px;
-}
-
-.text h3{
-  color: #fff;
-  font-size: 15px;
-}
-
-.text h1{
+.text-site h1{
   color: #fff;
   margin-top: 10px;
+  font-size: 38px;
 }
 
-.text span{
+.text-site span{
   color: #2ecc71;
 }
 
-.text p{
+.text-site p{
   color: #fff;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 300;
   margin-top: 10px;
 }
@@ -111,4 +126,20 @@ button:hover{
 
 .btn{
   margin-top: 10px;
+}
+
+.img-site img{
+  margin-left: 180px;
+  max-width: 380px;
+  position: relative;
+  animation: float 2s ease-in-out infinite alternate;
+}
+
+@keyframes float{
+  0%{
+    top: 0;
+  }
+  100%{
+    top: 30px;
+  }
 }

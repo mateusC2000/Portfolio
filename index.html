@@ -3,58 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!--FIM GOOGLE FONTS-->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Portfolio</title>
 </head>
 <body>
-  
-  <div class="background">
-    <header >
-      <div class="logo">
-        <i class="fa-solid fa-m"></i>
-      </div>
-      <div class="cabeçalho-link">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Work</a>
-        </li>
-        <button>My Contact</button>
-      </div>
-    </header>
 
-    <div class="conteiner-text">
-      <div class="flex">
-        <div class="text-site">
-          <h3>Hey guys</h3>
-          <h1>I am <span>Mateus Campos</span></h1>
-          <p>Software developer at Rebase and participant
-            <br> from the 7th class of Treinadev</p>
+  <header>
+    <div class="interface">
+      <div class="logo">
+        <a href="#">
+          <i class="fa-solid fa-m"></i>
+        </a>
+      </div><!--logo-->
+
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Work</a></li>
+        </ul>
+      </nav><!--menu-desktop-->
+
+      <div class="my-contact">
+        <a href="#">
+          <button>My Contact</button>
+        </a>
+      </div><!--my-contact-->
+
+    </div><!--interface-->
+  </header>
+
+  <main>
+    <section class="top-of-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-top-site">
+            <h3>Hey guys</h3>
+            <h1>I am <span>Mateus Campos</span></h1>
+            <p>Software developer at Rebase and participant
+              <br> from the 7th class of Treinadev</p>
+
             <td>&nbsp;</td>
-            <div class="redes-sociais">
+            <div class="social-media">
               <a href="https://www.facebook.com/profile.php?id=100013784800565"><i class="fa-brands fa-facebook"></i></a>
               <a href="https://twitter.com/_mbfields_"><i class="fa-brands fa-twitter"></i></a>
               <a href="https://www.instagram.com/_mbfields_/"><i class="fa-brands fa-instagram"></i></a>
               <a href="https://github.com/mateusC2000"><i class="fa-brands fa-github"></i></a>
               <a href="https://www.linkedin.com/in/mateus-batista-campos/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <button class="btn">About Me</button>
-        </div>
-        
-        <div class="img-site">
-          <img src="images/img-tp.jpeg" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
+            <td>&nbsp;</td>
+
+            <div class="my-contact">
+              <a href="#">
+                <button class="btn">About Me</button>
+              </a>
+            </div>
+          </div><!--txt-top-site-->
+
+          <div class="img-top-site">
+            <img src="images/img-tp.jpeg" alt="">
+          </div><!--img-top-site-->
+        </div><!--flex-->
+      </div><!--interface-->
+    </section><!--top-of-site-->
+  </main>
 
 </body>
 </html>

@@ -1,87 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* ESTILO GERAL */
-
+/* GENERAL STILE */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
   font-family: "Poppins", sans-serif;
 }
 
 body{
-  overflow: hidden;
+  background-color: black;
+  height: 100vh;
 }
 
-.background{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-image: url(images/background.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .flex{
   display: flex;
 }
 
-button{
-  color: #2ecc71;
-  background: transparent;
-  border: solid 1px #2ecc71;
-  padding: 5px;
-  border-radius: 15px;
-  font-size: 12px;
-  width: 150px;
+.my-contact button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00ff08;
+  border: 0;
+  border-radius: 30px;
   cursor: pointer;
-  display: inline-block;
+  transition: .2s;
 }
 
-button:hover{
-  background-color: #2ecc71;
-  color: #fff;
-  transition: 0.5s;
-  transform: scale(1.1);
+.my-contact button:hover{
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.1)
 }
 
-/* ESTILO DO CABEÇALHO */
+/*STYLE HEADER*/
+
 header{
+  padding: 40px;
+}
+
+header > .interface{
   display: flex;
-  justify-content: space-around;
-  max-width: 100%;
   align-items: center;
-  text-align: center;
-  padding: 40px 4%;
+  justify-content: space-between;
 }
 
-.cabeçalho-link{
-  display: flex;
-  gap: 130px;
-  font-weight: 300;
-  cursor: pointer;
-}
-
-.cabeçalho-link a{
-  color: #fff;
-  font-size: 13px;
-  display: inline-block;
-}
-
-.cabeçalho-link a:hover{
-  color: #2ecc71;
-  transition: 0.3s all;
-  transform: scale(1.1);
-}
-
-.logo i{
+header .logo i{
   height: 40px;
   width: 40px;
   background: transparent;
-  border: 1px solid #2ecc71;
-  color: #2ecc71;
+  border: 1px solid #00ff08;
+  color: #00ff08;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -90,52 +63,67 @@ header{
   cursor: pointer;
 }
 
-/* ESTILO CORPO */
-.conteiner-text .flex{
-  padding: 100px 0 0 130px;
-  align-items: center;
-  justify-content: center;
+header a{
+  color: #7d7d7d;
+  text-decoration: none;
+  display: inline-block;
+  transition: .2s;
 }
 
-.text-site h3{
+header a:hover{
+  color: #fff;
+  transform: scale(1.1);
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 50px;
+}
+
+/* TOP OF SITE STYLE*/
+
+section.top-of-site{
+  padding: 40px 4%;
+}
+  
+section.top-of-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.top-of-site .txt-top-site h3{
   color: #fff;
   font-size: 20px;
 }
 
-.text-site h1{
+.top-of-site .txt-top-site h1{
   color: #fff;
-  margin-top: 10px;
   font-size: 38px;
 }
 
-.text-site span{
-  color: #2ecc71;
-}
-
-.text-site p{
+.top-of-site .txt-top-site p{
   color: #fff;
-  font-size: 15px;
-  font-weight: 300;
-  margin-top: 10px;
+  margin: 40px 0
 }
 
-.redes-sociais a{
-  color:#2ecc71;
-  padding: 10px;
+.top-of-site .txt-top-site h1 span{
+  color: #00ff08;
+  font-size: 38px;
+
 }
 
-.btn{
-  margin-top: 10px;
-}
-
-.img-site img{
-  margin-left: 180px;
-  max-width: 380px;
+.img-top-site img {
+  width: 420px;
   position: relative;
-  animation: float 2s ease-in-out infinite alternate;
+  animation: fluter 2s ease-in-out infinite alternate;
 }
 
-@keyframes float{
+@keyframes fluter {
   0%{
     top: 0;
   }

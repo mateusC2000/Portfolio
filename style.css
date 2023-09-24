@@ -37,6 +37,17 @@ body{
   transform: scale(1.1)
 }
 
+h2.title{
+  padding: 40px;
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2.title span{
+  color: #00ff08;
+}
+
 /*STYLE HEADER*/
 
 header{
@@ -106,15 +117,27 @@ section.top-of-site .flex{
   font-size: 38px;
 }
 
+.top-of-site .txt-top-site h1 span{
+  color: #00ff08;
+  font-size: 38px;
+}
+
 .top-of-site .txt-top-site p{
   color: #fff;
   margin: 40px 0
 }
 
-.top-of-site .txt-top-site h1 span{
-  color: #00ff08;
-  font-size: 38px;
+.top-of-site .txt-top-site .social-media ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
 
+.top-of-site .txt-top-site .social-media ul li a{
+  color: #00ff08;
+}
+
+.top-of-site .txt-top-site .my-contact{
+  margin: 30px 0
 }
 
 .img-top-site img {
@@ -130,4 +153,38 @@ section.top-of-site .flex{
   100%{
     top: 30px;
   }
+}
+
+/* SPECIALTIES STYLE*/
+
+section.specialties{
+  padding: 40px 4%;
+}
+
+section.specialties .flex{
+  gap: 60px;
+}
+
+.specialties .specialties-box{
+  color:#fff;
+  padding: 40px;
+  border-radius: 25px;
+  width: 380px;
+  transition: .2s;
+  margin-top: 25px;
+}
+
+.specialties .specialties-box:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ffffff78;
+}
+
+.specialties .specialties-box i{
+  font-size: 70px;
+  color: #00ff08;
+}
+
+.specialties .specialties-box h3{
+  font-size: 28px;
+  margin: 15px 0;
 }

@@ -32,7 +32,7 @@ body{
   transition: .2s;
 }
 
-button:hover{
+button:hover, form .to-send input:hover{
   box-shadow: 0px 0px 8px #00ff08;
   transform: scale(1.1)
 }
@@ -274,4 +274,50 @@ section.portfolio .flex{
 
 .overlay:hover{
   opacity: 1;
+}
+
+/* FORM STYLE */
+
+section.contact-form{
+  padding: 60px, 4%;
+}
+
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+form input, form textarea{
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+form textarea{
+  resize: none;
+  height: 170px;
+}
+
+form .to-send{
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .to-send input{
+  width: 120px;
+  background-color: #00ff08;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .2s;
 }

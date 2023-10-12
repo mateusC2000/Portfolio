@@ -436,6 +436,10 @@ footer .line-footer p a {
     text-align: center;
   }
 
+  .social-media button i {
+    color: #000;
+  }
+
   h2.title {
     padding: 20px;
     font-size: 34px;

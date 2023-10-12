@@ -22,31 +22,54 @@
   <header>
     <div class="interface">
       <div class="logo">
-        <a href="#">
+        <a href="#top-of-site">
           <i class="fa-solid fa-a"></i>
         </a>
       </div><!--logo-->
 
       <nav class="menu-desktop">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Specialties</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a href="#top-of-site">Home</a></li>
+          <li><a href="#specialties">Specialties</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Projects</a></li>
         </ul>
       </nav><!--menu-desktop-->
 
       <div class="my-contact">
-        <a href="#">
+        <a href="#contact-form">
           <button>My Contact</button>
         </a>
       </div><!--my-contact-->
+
+      <div class="button-open" id="button-open">
+        <i class="bi bi-list"></i>
+      </div><!--open-menu-->
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="button-close">
+          <i class="bi bi-x-lg"></i>
+        </div><!--button-close-->
+
+        <nav>
+          <ul>
+            <li><a href="#top-of-site">Home</a></li>
+            <li><a href="#specialties">Specialties</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#my-contact">Contact</a></li>
+          </ul>
+        </nav>
+
+      </div><!--menu-mobile-->
+
+      <div class="overlay-menu" id="overlay-menu"></div>
 
     </div><!--interface-->
   </header>
 
   <main>
-    <section class="top-of-site">
+    <section class="top-of-site" id="top-of-site">
       <div class="interface">
         <div class="flex">
           <div class="txt-top-site">
@@ -63,7 +86,7 @@
       </div><!--interface-->
     </section><!--top-of-site-->
 
-    <section class="specialties">
+    <section class="specialties" id="specialties">
       <div class="interface">
         <h2 class="title">MY <span>SPECIALTIES.</span></h2>
         <div class="flex">
@@ -86,7 +109,7 @@
       </div><!--interface-->
     </section><!--specialties-->
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="interface">
         <div class="flex">
           <div class="img-about">
@@ -115,7 +138,7 @@
       </div><!--interface-->
     </section><!--about-->
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="interface">
         <h2 class="title">MY <span>PORTFOLIO</span></h2>
         <div class="flex">
@@ -132,7 +155,7 @@
       </div><!--interface-->
     </section><!--portfolio-->
 
-    <section class="contact-form">
+    <section class="contact-form" id="contact-form">
       <div class="interface">
         <h2 class="title">TALK <span>TO ME.</span></h2>
 
@@ -167,6 +190,7 @@
       </div><!--line-footer-->
     </div><!--interface-->
   </footer>
-
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="app.js" defer></script>
 </body>
 </html>

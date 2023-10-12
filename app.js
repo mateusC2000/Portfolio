@@ -1,4 +1,4 @@
-$('nav a, .my-contact a').click(function(e){
+$('nav a, .my-contact a, .logo a').click(function(e){
   e.preventDefault()
   var id = $(this).attr('href');
     targetOffset = $(id).offset().top;

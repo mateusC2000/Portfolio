@@ -112,7 +112,7 @@ header nav.menu-desktop ul li {
 .button-open i{
   color: #00ff08;
   font-size: 40px;
-
+  display: none;
 }
 
 .menu-mobile {
@@ -450,6 +450,10 @@ footer .line-footer p a {
   /* HEADER */
   .menu-desktop, .my-contact {
     display: none;
+  }
+
+  .button-open i{
+    display: block;
   }
 
   /* TOP OF SITE */

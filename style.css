@@ -71,6 +71,7 @@ h2.title span {
   font-size: 22px;
   cursor: pointer;
   margin: 0 5px;
+  margin-bottom: 12px;
   transition: .2s;
 }
 
@@ -284,6 +285,8 @@ section.about .flex {
   font-size: 40px;
   line-height: 40px;
   margin-bottom: 30px;
+  margin-top: 30px;
+  
 }
 
 .about .txt-about h2 span {
@@ -349,6 +352,8 @@ section.experiences .flex {
 
 section.contact-form {
   padding: 60px, 4%;
+  display: block;
+  text-align: center;
 }
 
 form {
@@ -398,6 +403,7 @@ footer {
   margin-top: 80px;
   padding: 40px 4%;
   box-shadow: 0 0 40px 10px #ffffff1d;
+  align-items: center;
 }
 
 footer .flex {
@@ -408,19 +414,14 @@ footer .line-footer {
   padding: 20px 0;
 }
 
-.last-line {
-  border-top: 2px solid #00ff08;
-}
 
-footer .line-footer p i {
-  color: #00ff08;
-  font-size: 25px;
-}
-
-footer .line-footer p a {
+.contact-form p a {
   color: #fff;
 }
 
+.contact-form title{
+  margin-top: 20px;
+}
 /* RESPONSIVE STYLE */
 
 @media screen and (max-width: 1020px) {
@@ -525,24 +526,12 @@ footer .line-footer p a {
   .img-port {
     width: 100%;
     max-width: 480px;
-    margin: 0 auto;
+    margin: 8px;
   }
 
   /* BASEBOARD */
 
   footer .flex {
     gap: 40px;
-  }
-
-  footer .logo {
-    text-align: center;
-  }
-
-  footer .social-media {
-    text-align: center;
-  }
-
-  footer .last-line {
-    text-align: center;
   }
 }

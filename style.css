@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #1a1a1a;
   height: 100vh;
 }
 
@@ -24,7 +24,7 @@ body {
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 600;
-  background-color: #00ff08;
+  background-color: #2ecc71;
   border: 0;
   border-radius: 30px;
   cursor: pointer;
@@ -33,7 +33,7 @@ body {
 
 button:hover,
 form .to-send input:hover {
-  box-shadow: 0px 0px 8px #00ff08;
+  box-shadow: 0px 0px 8px #2ecc71;
   transform: scale(1.1)
 }
 
@@ -45,15 +45,15 @@ h2.title {
 }
 
 h2.title span {
-  color: #00ff08;
+  color: #2ecc71;
 }
 
 .logo i {
   height: 40px;
   width: 40px;
   background: transparent;
-  border: 1px solid #00ff08;
-  color: #00ff08;
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -67,7 +67,7 @@ h2.title span {
   height: 60px;
   border-radius: 50%;
   border: 0;
-  background-color: #00ff08;
+  background-color: #2ecc71;
   font-size: 22px;
   cursor: pointer;
   margin: 0 5px;
@@ -111,7 +111,7 @@ header nav.menu-desktop ul li {
 /* MENU MOBILE STYLE*/
 
 .button-open i{
-  color: #00ff08;
+  color: #2ecc71;
   font-size: 40px;
   display: none;
 }
@@ -142,7 +142,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .button-close i {
-  color: #00ff08;
+  color: #2ecc71;
   font-size: 30px;
 
 }
@@ -160,7 +160,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile nav ul li a:hover{
-  background-color: #00ff08;
+  background-color: #2ecc71;
   color: #000;
 }
 
@@ -198,7 +198,7 @@ section.top-of-site .flex {
 }
 
 .top-of-site .txt-top-site h1 span {
-  color: #00ff08;
+  color: #2ecc71;
   font-size: 38px;
 }
 
@@ -253,7 +253,7 @@ section.specialties .flex {
 
 .specialties .specialties-box i {
   font-size: 70px;
-  color: #00ff08;
+  color: #2ecc71;
 }
 
 .specialties .specialties-box h3 {
@@ -290,7 +290,7 @@ section.about .flex {
 }
 
 .about .txt-about h2 span {
-  color: #00ff08;
+  color: #2ecc71;
   display: block;
 }
 
@@ -390,7 +390,7 @@ form .to-send {
 
 form .to-send input {
   width: 120px;
-  background-color: #00ff08;
+  background-color: #2ecc71;
   color: #000;
   font-weight: 700;
   cursor: pointer;

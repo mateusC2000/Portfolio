@@ -397,7 +397,7 @@ form .to-send input {
   transition: .2s;
 }
 
-/* BASEBOARD STYLE */
+/* FOOTER STYLE */
 
 footer {
   margin-top: 80px;
@@ -414,6 +414,60 @@ footer .line-footer {
   padding: 20px 0;
 }
 
+footer .line-footer p {
+  color: #fff;
+  text-align: center;
+}
+
+footer .line-footer.borda {
+  border-top: 1px solid #2ecc71;
+  border-bottom: 1px solid #2ecc71;
+}
+
+footer .line-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .logo-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .logo-footer i {
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+footer .logo-footer span {
+  color: #fff;
+  font-weight: 600;
+}
+
+footer .btn-social button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #2ecc71;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: .2s;
+}
+
+footer .btn-social button:hover {
+  transform: scale(1.1);
+}
 
 .contact-form p a {
   color: #fff;
@@ -529,9 +583,19 @@ footer .line-footer {
     margin: 8px;
   }
 
-  /* BASEBOARD */
+  /* FOOTER */
 
   footer .flex {
     gap: 40px;
+  }
+  
+  footer .line-footer .flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  footer .btn-social {
+    margin-top: 20px;
   }
 }

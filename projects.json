@@ -1,0 +1,14 @@
+[
+	{
+    "name": "Plataforma para freelancers",
+    "image": "/images/freelancer.png",
+    "tags": ["Ruby on Rails", "Bootstrap", "Docker", "Rspec", "ApiRest"],
+    "link": "https://github.com/mateusC2000/Freelancer_now"
+  },
+  	{
+    "name": "Plataforma para cadastro de produtos",
+    "image": "/images/product_app.png",
+    "tags": ["Ruby on Rails", "Docker", "Rspec", "ApiRest", "React", "Fetch API"],
+    "link": "https://github.com/mateusC2000/product_application"
+  }
+]

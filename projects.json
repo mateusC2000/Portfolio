@@ -16,5 +16,11 @@
     "image": "/images/adedonha.png",
     "tags": ["HTML", "CSS", "JavaScript"],
     "link": "https://github.com/mateusC2000/adedonha"
+  },
+  {
+    "name": "Roleta de letras para Adedonha",
+    "image": "/images/adedonha-roleta.png",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "link": "https://github.com/mateusC2000/adedonha-roulette"
   }
 ]
